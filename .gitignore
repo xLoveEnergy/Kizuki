@@ -1,0 +1,33 @@
+```
+# Dependencies
+.gradle/
+build/
+.libs/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Test and coverage
+.coverage
+coverage/
+htmlcov/
+```

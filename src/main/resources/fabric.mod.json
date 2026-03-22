@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "modclient",
+  "version": "${version}",
+  "name": "Mod Client",
+  "description": "A simple Fabric mod client for Minecraft 1.21.4",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yourusername/modclient"
+  },
+  "license": "MIT",
+  "icon": "assets/modclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.modclient.ModClient"
+    ],
+    "client": [
+      "com.example.modclient.client.ModClientClient"
+    ]
+  },
+  "mixins": [
+    "modclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
